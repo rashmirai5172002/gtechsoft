@@ -49,6 +49,14 @@ body {
   animation: marquee 10s linear infinite;
 }
 
+/* .animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .animate-marquee {
+    animation-duration: 10s;   }
+} */
 
 /* ================= STYLE ================= */
       
@@ -57,14 +65,14 @@ body {
           animation: marquee 20s linear infinite;
         } */
 
-        @keyframes marquee {
+        /* @keyframes marquee {
           from {
             transform: translateX(0);
           }
           to {
             transform: translateX(-50%);
           }
-        }
+        } */
 
         /* fade up */
         @keyframes fadeUp {
